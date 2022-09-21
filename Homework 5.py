@@ -19,7 +19,7 @@ def permutation(lst):
        # Extract lst[i] or m from the list.  remLst is
        # remaining list
        remLst = lst[:i] + lst[i+1:]
- 
+ #ลองเล่นๆๆๆๆๆ
        # Generating all permutations where m is first
        # element
        for p in permutation(remLst):
